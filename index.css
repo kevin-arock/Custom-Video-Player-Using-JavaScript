@@ -1,14 +1,21 @@
+body{
+    background-color: #111;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    
 }
 
 .video-container{
     width: fit-content;
     position: relative;
     z-index: 100;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
 }
 .vid{
     width: 500px;
